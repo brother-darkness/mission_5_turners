@@ -1,12 +1,10 @@
-import "./App.css";
-import Navbar from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
+import NewPin from './pages/newPin';
+
 
 function App() {
 	return (
 		<div className="App">
-			<Navbar />
-			<Footer />
+			<NewPin/>
 		</div>
 	);
 }
